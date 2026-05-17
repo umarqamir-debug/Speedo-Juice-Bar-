@@ -13,7 +13,7 @@ export default function App() {
       <input placeholder="Name" onChange={e=>setName(e.target.value)} /><br/><br/>
       <input placeholder="Phone" onChange={e=>setPhone(e.target.value)} /><br/><br/>
 
-      <a href={`https://wa.me/27XXXXXXXXX?text=Order from Speedo Juice Bar - Name:${name} Phone:${phone}`} target="_blank">
+      <a href={`https://wa.me/27606102051?text=Order from Speedo Juice Bar - Name:${name} Phone:${phone}`} target="_blank">
         <button>Order via WhatsApp</button>
       </a>
 
